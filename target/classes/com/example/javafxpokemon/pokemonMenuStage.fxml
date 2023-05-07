@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<SplitPane dividerPositions="0.21728187919463085" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="528.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxpokemon.HelloController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eb4f3b" height="120.0" stroke="BLACK" strokeType="INSIDE" width="597.0" />
+            <ImageView fitHeight="82.0" fitWidth="573.0" layoutX="12.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Pokemon-Card-Collection.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="394.0" prefWidth="597.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e18c7" height="528.0" layoutY="-119.0" stroke="BLACK" strokeType="INSIDE" width="597.0" />
+            <Button layoutX="185.0" layoutY="31.0" mnemonicParsing="false" onAction="#removePokemon" prefHeight="42.0" prefWidth="207.0" text="REMOVE ONE POKEMON" />
+            <Button layoutX="185.0" layoutY="101.0" mnemonicParsing="false" onAction="#viewOnePokemon" prefHeight="42.0" prefWidth="207.0" text="VIEW ONE POKEMON" />
+            <Button layoutX="185.0" layoutY="173.0" mnemonicParsing="false" onAction="#slideShow" prefHeight="42.0" prefWidth="207.0" text="VIEW SLIDESHOW" />
+            <Button layoutX="185.0" layoutY="249.0" mnemonicParsing="false" onAction="#searchPokemon" prefHeight="42.0" prefWidth="207.0" text="SEARCH POKEMON" />
+            <Button layoutX="185.0" layoutY="326.0" mnemonicParsing="false" onAction="#exitProgram" prefHeight="42.0" prefWidth="207.0" text="EXIT PROGRAM" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>

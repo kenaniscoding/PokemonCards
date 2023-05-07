@@ -1,0 +1,244 @@
+@startuml
+
+title __JAVAFXPOKEMON's Class Diagram__\n
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Bulbasaur {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Canvas {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Cascoon {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Clefairy {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Diglett {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Elekid {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Fuecoco {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Gengar {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Geodude {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Goomy {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.HelloApplication {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.HelloController {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Jigglypuff {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Klink {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Koffing {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Machoke {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Magikarp {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Mewtwo {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.PersonController {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      abstract class com.example.javafxpokemon.Pokemon {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.PokemonCards {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Poochyena {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Slowpoke {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Snorlax {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Starly {
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Swinub {
+      }
+    }
+  }
+  
+
+  com.example.javafxpokemon.Bulbasaur -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Cascoon -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Clefairy -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Diglett -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Elekid -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Fuecoco -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Gengar -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Geodude -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Goomy -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.HelloApplication -up-|> javafx.application.Application
+  com.example.javafxpokemon.HelloController o-- com.example.javafxpokemon.PokemonCards : pokemonDeck
+  com.example.javafxpokemon.Jigglypuff -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Klink -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Koffing -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Machoke -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Magikarp -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Mewtwo -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Poochyena -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Slowpoke -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Snorlax -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Starly -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Swinub -up-|> com.example.javafxpokemon.Pokemon
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

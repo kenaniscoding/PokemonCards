@@ -1,0 +1,652 @@
+@startuml
+
+title __JAVAFXPOKEMON's Class Diagram__\n
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Bulbasaur {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Bulbasaur()
+          + Bulbasaur()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Canvas {
+      }
+    }
+  }
+  
+
+  namespace  A{
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Cascoon {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Cascoon()
+          + Cascoon()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Clefairy {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Clefairy()
+          + Clefairy()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Diglett {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Diglett()
+          + Diglett()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Elekid {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Elekid()
+          + Elekid()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Fuecoco {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Fuecoco()
+          + Fuecoco()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Gengar {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Gengar()
+          + Gengar()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Geodude {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Geodude()
+          + Geodude()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Goomy {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Goomy()
+          + Goomy()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.HelloApplication {
+          {static} - scene : Scene
+          {static} - window : Stage
+          + changeScene()
+          + getStage()
+          {static} + main()
+          + start()
+      }
+    }
+  }
+  
+
+  namespace  A{
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.HelloController {
+          + pokemonNameNotFound : Label
+          + removePokemonIndex : TextField
+          + searchPokemon : TextField
+          - i : int
+          - rgen : RandomGenerator
+          + HelloController()
+          + exitProgram()
+          + menuProgram()
+          + removePokemon()
+          + removePokemonV2()
+          + searchPokemon()
+          + searchPokemonV2()
+          + showPokemon()
+          + slideShow()
+          + viewOnePokemon()
+          - showDoubleType()
+          - showSingleType()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Jigglypuff {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Jigglypuff()
+          + Jigglypuff()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Klink {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Klink()
+          + Klink()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Koffing {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Koffing()
+          + Koffing()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Machoke {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Machoke()
+          + Machoke()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Magikarp {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Magikarp()
+          + Magikarp()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Mewtwo {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Mewtwo()
+          + Mewtwo()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.PersonController {
+          + background : ImageView
+          + pokemonDoubleType : Label
+          + pokemonHeight : Label
+          + pokemonName : Label
+          + pokemonType : Label
+          + pokemonWeight : Label
+          + recAttack : Rectangle
+          + recDefense : Rectangle
+          + recStamina : Rectangle
+          + sprite : ImageView
+          + menuProgram()
+          + setBackground()
+          + setDoubleType()
+          + setHeight()
+          + setName()
+          + setRecAttack()
+          + setRecDefense()
+          + setRecStamina()
+          + setSprite()
+          + setType()
+          + setWeight()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      abstract class com.example.javafxpokemon.Pokemon {
+          # attack : String
+          # background : Image
+          # defense : String
+          # height : String
+          # name : String
+          # sprite : Image
+          # stamina : String
+          # type : String
+          # weight : String
+          {abstract} + getBackground()
+          {abstract} + getName()
+          {abstract} + getSprite()
+          {abstract} + getStats()
+          {abstract} + getType()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.PokemonCards {
+          {static} + pokemonNames : ArrayList<String>
+          {static} - filename : String
+          {static} - pass : boolean
+          {static} - pokemons : ArrayList<Pokemon>
+          + PokemonCards()
+          + getPokemon()
+          + getSize()
+          + remove()
+          + searchPokemon()
+          {static} - loadStats()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Poochyena {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Poochyena()
+          + Poochyena()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Slowpoke {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Slowpoke()
+          + Slowpoke()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace  A{
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Snorlax {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Snorlax()
+          + Snorlax()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Starly {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Starly()
+          + Starly()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  namespace A {
+    namespace om.example.javafxpokemon {
+      class com.example.javafxpokemon.Swinub {
+          - attack : String
+          - background : Image
+          - defense : String
+          - height : String
+          - name : String
+          - sprite : Image
+          - stamina : String
+          - type : String
+          - weight : String
+          + Swinub()
+          + Swinub()
+          + getBackground()
+          + getName()
+          + getSprite()
+          + getStats()
+          + getType()
+          + toString()
+      }
+    }
+  }
+  
+
+  com.example.javafxpokemon.Bulbasaur -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Cascoon -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Clefairy -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Diglett -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Elekid -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Fuecoco -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Gengar -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Geodude -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Goomy -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.HelloApplication -up-|> javafx.application.Application
+  com.example.javafxpokemon.HelloController o-- com.example.javafxpokemon.PokemonCards : pokemonDeck
+  com.example.javafxpokemon.Jigglypuff -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Klink -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Koffing -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Machoke -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Magikarp -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Mewtwo -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Poochyena -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Slowpoke -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Snorlax -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Starly -up-|> com.example.javafxpokemon.Pokemon
+  com.example.javafxpokemon.Swinub -up-|> com.example.javafxpokemon.Pokemon
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
